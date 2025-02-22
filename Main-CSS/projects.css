@@ -1,0 +1,123 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* Upper Navigation Bar */
+#logo {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+}
+
+ .logo-link {
+    text-decoration: none;
+    color: black;
+}
+
+.logo-link:hover {
+    color: white;
+    background-color: black;
+    border-radius: 20%;
+    height: 100%;
+}
+
+#upper-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .2rem;
+    background-color: rgba(8, 187, 148, 0.419);
+}
+
+#nav-bar-top {
+    display: flex;
+    justify-content: flex-end;
+    padding: .5rem;
+    margin-left: 65%;
+}
+
+.nav {
+    padding: 1rem;
+    text-decoration: none;
+    color: black;
+}
+
+.nav:hover {
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    height: 100%;
+}
+
+/* Section for first row of projects */
+
+.section-1 {
+    display: flex;
+    justify-content: center;
+    gap: 6rem;
+    margin-top: 6rem;
+}
+
+.section-2 {
+    display: flex;
+    justify-content: center;
+    gap: 6rem;
+    margin-top: 6rem;
+
+}
+
+.project-1, .project-2, .project-3 {
+    text-align: center; 
+    border-radius: 10%;
+    box-shadow: 10px 10px 20px grey;
+
+}
+
+.bar {
+    background-image: linear-gradient(to right, yellow, red);
+    width: 200px;
+    height: 5px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+.project-1 {
+    background-color: rgba(8, 187, 148, 0.419);
+    height: 400px;
+    width: 300px;
+    padding: 2rem;
+}
+
+.project-2 {
+    background-color: rgba(8, 187, 148, 0.419);
+    height: 400px;
+    width: 300px;
+    padding: 2rem;
+}
+
+.project-3 {
+    background-color: rgba(8, 187, 148, 0.419);
+    height: 400px;
+    width: 300px;
+    padding: 2rem;
+
+}
+
+h2 {
+    margin-bottom: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h2:hover {
+    color: white;
+    transform: scale(1.3);
+}
