@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/398fca0c2c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="contact.css">
+    <title>Contact Me </title>
+</head>
+<body>
+     <!-- Entire Upper Nav Container -->
+     <section div="sec-one">
+        <div id="upper-nav">
+            <!-- Logo -->
+            <div id="logo">
+                <a href="about.html" alt="Logo" class="logo-link"><h2>AW</h2></a>
+            </div>
+
+            <!-- Navbar -->
+            <nav id="nav-bar-top">
+                <a href="index.html" alt="Home" class="nav">Home</a>
+                <a href="about.html" alt="About" class="nav">About</a>
+                <a href="projects.html" alt="Projects" class="nav">Projects</a>
+                <a href="contact.html" alt="Contact Me" class="nav">Contact Me</a>
+            </nav>
+        </div>
+     </section>
+
+        <!-- Contact Form code -->
+     <section>
+        <div id="contact-form">
+            <div>
+                <img class="computer"  src="Images.jpg/Computer.jpg" width="200" height="400">
+            </div>
+          <form action="/submit" method="post" class="contact-info" id="contact-info">
+                <label for="name" id="entry-form" class="entry-form">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            
+                <label for="email" class="entry-form">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+                <label for="message" class="entry-form">I look forward to hearing from you!</label>
+                <textarea name="message" id="message" maxlength="300" rows="4" cols="50" placeholder="Type message here..."></textarea>
+                <div id="char-counter" class="counter">0 / 300</div>
+            
+                <button type="button" id="submit-btn" class="submit-btn">Send Message</button>
+          </form>
+        </div>
+        <div id="social-media" class="social-media">
+            <a class="social" href="https://github.com/dashboard" alt="github"><i class="fa-brands fa-github"></i></a>
+            <a class="social" href="https://www.instagram.com/antwaun/" alt="instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a class="social" href="https://x.com/home?lang=en&mx=2" alt="twitter"><i class="fa-brands fa-x-twitter"></i></a>
+            <a class="social" href="https://www.upwork.com/nx/find-work/most-recent" alt="upwork"><i class="fa-brands fa-upwork"></i></a>
+        </div>
+     </section>
+
+
+    <script src="contact.js" charset="UTF-8">
+
+    </script>
+</body>
+</html>

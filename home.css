@@ -1,0 +1,143 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Keeps page from scrolling 
+body {
+    overflow: hidden;
+}
+*/
+
+/* Upper Navigation Bar */
+#logo {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+}
+
+ .logo-link {
+    text-decoration: none;
+    color: black;
+}
+
+.logo-link:hover {
+    color: white;
+    background-color: black;
+    border-radius: 20%;
+    height: 100%;
+}
+
+#upper-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .2rem;
+    background-color: rgba(8, 187, 148, 0.419);
+}
+
+#nav-bar-top {
+    display: flex;
+    justify-content: flex-end;
+    padding: .5rem;
+    margin-left: 65%;
+}
+
+.nav {
+    padding: 1rem;
+    text-decoration: none;
+    color: black;
+}
+
+.nav:hover {
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    height: 100%;
+}
+
+/* Page One Content */
+
+/* Code that fades the words hello world. down to keyframes */
+.hello-world {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    margin-top: 2rem;
+    animation: backwards fadeIn 2s ease-in-out;
+}
+
+/* This code is not needed. Selects first child in element and edits that one only. learning purposes
+
+#logo :last-child {
+    color: green;
+}
+*/
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.dev-image {
+    display: flex;
+    position: absolute;
+    border-radius: 30%;
+    left: 50rem;
+    top: 10rem;
+    /* code below contributes to image fade affect */
+    opacity: 0;
+    transition: opacity 2s ease-in;
+}
+/* Contributes to the fading affect of image */
+.dev-image.visible {
+    opacity: 1;
+}
+
+.profile-msg {
+    font-size: medium;
+}
+
+.profile-msg {
+    display: flex;
+    justify-self:flex-start;
+    position: absolute;
+    top: 12rem;
+    padding: 3rem;
+}
+
+/* Blue background square */
+#block-1 {
+    background-color: rgba(8, 187, 148, 0.433);
+    height: 400px;
+    width: 200px;
+    position: relative;
+    top: 30px;
+}
+
+/* Red background square */
+#block-2 {
+    background-color: rgba(203, 4, 4, 0.637);
+    height: 200px;
+    width: 500px;
+    position: relative;
+    left: 100px;
+    bottom: 90px;
+}
+
+/* Background Circle */
+#circle-1 {
+    background-color: rgba(203, 4, 4, 0.637);
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    bottom: 300px;
+    left: 150px;
+    border-radius: 50%;
+}

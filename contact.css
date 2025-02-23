@@ -1,0 +1,116 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* Upper Navigation Bar */
+#logo {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+}
+
+ .logo-link {
+    text-decoration: none;
+    color: black;
+}
+
+.logo-link:hover {
+    color: white;
+    background-color: black;
+    border-radius: 20%;
+    height: 100%;
+}
+
+#upper-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .2rem;
+    background-color: rgba(8, 187, 148, 0.419);
+}
+
+#nav-bar-top {
+    display: flex;
+    justify-content: flex-end;
+    padding: .5rem;
+    margin-left: 65%;
+}
+
+.nav {
+    padding: 1rem;
+    text-decoration: none;
+    color: black;
+}
+
+.nav:hover {
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    height: 100%;
+}
+
+/* Section 2, Contact form code */
+
+#contact-form {
+    background-color: rgba(8, 187, 148, 0.371);
+    display: inline-flex;
+    gap: 1rem;
+    margin-left: 300px;
+    margin-top: 80px;
+    border-radius: 10%;
+    width: 50%;
+    height: auto;
+}
+
+.computer {
+    display: flex;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+label {
+    padding: 2rem;
+}
+
+
+#message {
+    /* Eliminates automatically added resize box */
+    resize: none;
+}
+
+.entry-form {
+    display: flex;
+}
+
+#submit-btn {
+    /* rounds the corners of submit button */
+    border-radius: 10px;
+    height: auto;
+    border: none;
+    cursor: pointer;
+}
+#submit-btn:hover {
+    color: white;
+    background-color: blue;
+}
+
+#social-media {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    gap: 80px;
+}
+
+.social {
+    color: black;
+}
+

@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* Upper Navigation Bar */
+#logo {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+}
+
+ .logo-link {
+    text-decoration: none;
+    color: black;
+}
+
+.logo-link:hover {
+    color: white;
+    background-color: black;
+    border-radius: 20%;
+    height: 100%;
+}
+
+#upper-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .2rem;
+    background-color: rgba(8, 187, 148, 0.419);
+}
+
+#nav-bar-top {
+    display: flex;
+    justify-content: flex-end;
+    padding: .5rem;
+    margin-left: 65%;
+}
+
+.nav {
+    padding: 1rem;
+    text-decoration: none;
+    color: black;
+}
+
+.nav:hover {
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    height: 100%;
+}
+
+/* Code for bio and bio image */
+
+.top-info {
+    display: flex;
+    gap: 200px;
+    align-items: center;
+    margin-top: 50px;
+    padding: 60px;
+    background-color: rgba(8, 187, 148, 0.419);
+}
+
+.bio {
+    font-size: 14px;
+}
+
+.skills-blk {
+    display: flex;
+    gap: 15px;
+    padding: 100px;
+}
+
+.skills {
+    background-color: rgba(8, 187, 148, 0.419);
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    border-radius: 10%;
+}
+
+#brand {
+    font-size: 40px;
+}
+
+p {
+    padding: 10px;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.social {
+    color: black;
+}
+
+.social:hover {
+    color: red;
+}
